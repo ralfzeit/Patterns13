@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<ArrayOfOper xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <oper>
+    <category>Операторы</category>
+    <O_lastname>Иванов</O_lastname>
+    <O_name>Иван</O_name>
+    <O_name_2>Иванович</O_name_2>
+    <kontakt>тел 89238412384</kontakt>
+    <login>oper</login>
+    <pass>oper</pass>
+  </oper>
+</ArrayOfOper>

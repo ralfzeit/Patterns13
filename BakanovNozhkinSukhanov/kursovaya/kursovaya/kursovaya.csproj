@@ -1,0 +1,398 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{47FBF49E-ED3D-43F8-B51F-905D0A3FC8F5}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>kursovaya</RootNamespace>
+    <AssemblyName>kursovaya</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="add_admin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="add_admin.Designer.cs">
+      <DependentUpon>add_admin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="add_client.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="add_client.Designer.cs">
+      <DependentUpon>add_client.cs</DependentUpon>
+    </Compile>
+    <Compile Include="add_oper.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="add_oper.Designer.cs">
+      <DependentUpon>add_oper.cs</DependentUpon>
+    </Compile>
+    <Compile Include="add_tarif.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="add_tarif.Designer.cs">
+      <DependentUpon>add_tarif.cs</DependentUpon>
+    </Compile>
+    <Compile Include="admin.cs" />
+    <Compile Include="base_tarif_info.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="base_tarif_info.Designer.cs">
+      <DependentUpon>base_tarif_info.cs</DependentUpon>
+    </Compile>
+    <Compile Include="boxes.cs" />
+    <Compile Include="cash.cs" />
+    <Compile Include="client.cs" />
+    <Compile Include="deleting_admin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="deleting_admin.Designer.cs">
+      <DependentUpon>deleting_admin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="editing_admin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="editing_admin.Designer.cs">
+      <DependentUpon>editing_admin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="editing_admin2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="editing_admin2.Designer.cs">
+      <DependentUpon>editing_admin2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="editing_client.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="editing_client.Designer.cs">
+      <DependentUpon>editing_client.cs</DependentUpon>
+    </Compile>
+    <Compile Include="editing_oper.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="editing_oper.Designer.cs">
+      <DependentUpon>editing_oper.cs</DependentUpon>
+    </Compile>
+    <Compile Include="edit_order.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="edit_order.Designer.cs">
+      <DependentUpon>edit_order.cs</DependentUpon>
+    </Compile>
+    <Compile Include="edit_tarif.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="edit_tarif.Designer.cs">
+      <DependentUpon>edit_tarif.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="info_box.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="info_box.Designer.cs">
+      <DependentUpon>info_box.cs</DependentUpon>
+    </Compile>
+    <Compile Include="info_box_user.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="info_box_user.Designer.cs">
+      <DependentUpon>info_box_user.cs</DependentUpon>
+    </Compile>
+    <Compile Include="info_order_user.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="info_order_user.Designer.cs">
+      <DependentUpon>info_order_user.cs</DependentUpon>
+    </Compile>
+    <Compile Include="kabinet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="kabinet.Designer.cs">
+      <DependentUpon>kabinet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm_admin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm_admin.Designer.cs">
+      <DependentUpon>MainForm_admin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm_oper.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm_oper.Designer.cs">
+      <DependentUpon>MainForm_oper.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm_user.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm_user.Designer.cs">
+      <DependentUpon>MainForm_user.cs</DependentUpon>
+    </Compile>
+    <Compile Include="oper.cs" />
+    <Compile Include="ordering.cs" />
+    <Compile Include="order_box.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="order_box.Designer.cs">
+      <DependentUpon>order_box.cs</DependentUpon>
+    </Compile>
+    <Compile Include="order_box_user.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="order_box_user.Designer.cs">
+      <DependentUpon>order_box_user.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pass_change.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pass_change.Designer.cs">
+      <DependentUpon>pass_change.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RA.cs" />
+    <Compile Include="random_client.cs" />
+    <Compile Include="RB.cs" />
+    <Compile Include="RC.cs" />
+    <Compile Include="review_admin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="review_admin.Designer.cs">
+      <DependentUpon>review_admin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="review_cash.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="review_cash.Designer.cs">
+      <DependentUpon>review_cash.cs</DependentUpon>
+    </Compile>
+    <Compile Include="review_clients.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="review_clients.Designer.cs">
+      <DependentUpon>review_clients.cs</DependentUpon>
+    </Compile>
+    <Compile Include="review_oper.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="review_oper.Designer.cs">
+      <DependentUpon>review_oper.cs</DependentUpon>
+    </Compile>
+    <Compile Include="review_tarif.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="review_tarif.Designer.cs">
+      <DependentUpon>review_tarif.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RM.cs" />
+    <Compile Include="RO.cs" />
+    <Compile Include="RORDER.cs" />
+    <Compile Include="RR.cs" />
+    <Compile Include="RT.cs" />
+    <Compile Include="tarif.cs" />
+    <EmbeddedResource Include="add_admin.resx">
+      <DependentUpon>add_admin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="add_client.resx">
+      <DependentUpon>add_client.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="add_oper.resx">
+      <DependentUpon>add_oper.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="add_tarif.resx">
+      <DependentUpon>add_tarif.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="base_tarif_info.resx">
+      <DependentUpon>base_tarif_info.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="deleting_admin.resx">
+      <DependentUpon>deleting_admin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="editing_admin.resx">
+      <DependentUpon>editing_admin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="editing_admin2.resx">
+      <DependentUpon>editing_admin2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="editing_client.resx">
+      <DependentUpon>editing_client.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="editing_oper.resx">
+      <DependentUpon>editing_oper.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="edit_order.resx">
+      <DependentUpon>edit_order.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="edit_tarif.resx">
+      <DependentUpon>edit_tarif.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="info_box.resx">
+      <DependentUpon>info_box.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="info_box_user.resx">
+      <DependentUpon>info_box_user.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="info_order_user.resx">
+      <DependentUpon>info_order_user.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="kabinet.resx">
+      <DependentUpon>kabinet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm_admin.resx">
+      <DependentUpon>MainForm_admin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm_oper.resx">
+      <DependentUpon>MainForm_oper.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm_user.resx">
+      <DependentUpon>MainForm_user.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="order_box.resx">
+      <DependentUpon>order_box.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="order_box_user.resx">
+      <DependentUpon>order_box_user.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pass_change.resx">
+      <DependentUpon>pass_change.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="review_admin.resx">
+      <DependentUpon>review_admin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="review_cash.resx">
+      <DependentUpon>review_cash.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="review_clients.resx">
+      <DependentUpon>review_clients.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="review_oper.resx">
+      <DependentUpon>review_oper.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="review_tarif.resx">
+      <DependentUpon>review_tarif.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\emblem-important_1622.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\emblem-important_2824.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="pics\free.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="pics\busy.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Клиентский профиль Microsoft .NET Framework 4 %28x86 и x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>Клиентский профиль .NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Установщик Windows 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<ArrayOfTarif xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <tarif>
+    <status>Активный</status>
+    <tname>Обычный тариф</tname>
+    <day>200</day>
+    <week>1400</week>
+    <month>6000</month>
+    <three_months>18000</three_months>
+    <six_months>36000</six_months>
+  </tarif>
+  <tarif>
+    <status>Неактивный</status>
+    <tname>Летняя акция</tname>
+    <day>150</day>
+    <week>1000</week>
+    <month>4100</month>
+    <three_months>12500</three_months>
+    <six_months>24900</six_months>
+  </tarif>
+</ArrayOfTarif>

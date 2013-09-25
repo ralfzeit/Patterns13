@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<ArrayOfOrdering xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ordering>
+    <boxname>А3</boxname>
+    <box_owner_category>Клиенты</box_owner_category>
+    <box_owner_lastname>Клиновенко</box_owner_lastname>
+    <box_owner_name>Инна</box_owner_name>
+    <box_owner_kontakt>тел 8234812384</box_owner_kontakt>
+    <box_owner_login>inna</box_owner_login>
+    <startdate>2013-09-06T16:54:40.424+07:00</startdate>
+    <enddate>2013-09-06T22:54:40</enddate>
+  </ordering>
+</ArrayOfOrdering>

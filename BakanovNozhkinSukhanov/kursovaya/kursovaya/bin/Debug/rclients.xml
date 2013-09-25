@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<ArrayOfRandom_client xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <random_client>
+    <category>Незарегистрированный</category>
+    <r_lastname>Радионов</r_lastname>
+    <r_name>Виктор</r_name>
+    <r_name_2>Петрович</r_name_2>
+    <kontakt>тел 89839918283</kontakt>
+    <auto_model>аудиТТ</auto_model>
+    <auto_number>р491вв</auto_number>
+    <box>А4</box>
+    <d1>2013-07-25T02:49:25</d1>
+    <d2>2013-07-28T03:49:25</d2>
+  </random_client>
+</ArrayOfRandom_client>

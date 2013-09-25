@@ -1,0 +1,219 @@
+<?xml version="1.0"?>
+<ArrayOfBoxes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <boxes>
+    <n>0</n>
+    <box_number>А1</box_number>
+    <box_status>свободен</box_status>
+    <box_current_owner_login>-</box_current_owner_login>
+  </boxes>
+  <boxes>
+    <n>1</n>
+    <box_number>А2</box_number>
+    <box_status>свободен</box_status>
+    <box_current_owner_login>-</box_current_owner_login>
+  </boxes>
+  <boxes>
+    <n>2</n>
+    <box_number>А3</box_number>
+    <box_status>занят</box_status>
+    <box_current_owner_login>inna</box_current_owner_login>
+  </boxes>
+  <boxes>
+    <n>3</n>
+    <box_number>А4</box_number>
+    <box_status>свободен</box_status>
+    <box_current_owner_login>-</box_current_owner_login>
+  </boxes>
+  <boxes>
+    <n>4</n>
+    <box_number>А5</box_number>
+    <box_status>свободен</box_status>
+    <box_current_owner_login />
+  </boxes>
+  <boxes>
+    <n>5</n>
+    <box_number>А6</box_number>
+    <box_status>свободен</box_status>
+    <box_current_owner_login />
+  </boxes>
+  <boxes>
+    <n>6</n>
+    <box_number>А7</box_number>
+    <box_status>свободен</box_status>
+    <box_current_owner_login />
+  </boxes>
+  <boxes>
+    <n>7</n>
+    <box_number>А8</box_number>
+    <box_status>свободен</box_status>
+    <box_current_owner_login />
+  </boxes>
+  <boxes>
+    <n>8</n>
+    <box_number>А9</box_number>
+    <box_status>свободен</box_status>
+    <box_current_owner_login>-</box_current_owner_login>
+  </boxes>
+  <boxes>
+    <n>9</n>
+    <box_number>А10</box_number>
+    <box_status>свободен</box_status>
+    <box_current_owner_login />
+  </boxes>
+  <boxes>
+    <n>10</n>
+    <box_number>А11</box_number>
+    <box_status>свободен</box_status>
+    <box_current_owner_login />
+  </boxes>
+  <boxes>
+    <n>11</n>
+    <box_number>А12</box_number>
+    <box_status>свободен</box_status>
+    <box_current_owner_login />
+  </boxes>
+  <boxes>
+    <n>12</n>
+    <box_number>Б1</box_number>
+    <box_status>свободен</box_status>
+    <box_current_owner_login />
+  </boxes>
+  <boxes>
+    <n>13</n>
+    <box_number>Б2</box_number>
+    <box_status>свободен</box_status>
+    <box_current_owner_login />
+  </boxes>
+  <boxes>
+    <n>14</n>
+    <box_number>Б3</box_number>
+    <box_status>свободен</box_status>
+    <box_current_owner_login />
+  </boxes>
+  <boxes>
+    <n>15</n>
+    <box_number>Б4</box_number>
+    <box_status>свободен</box_status>
+    <box_current_owner_login />
+  </boxes>
+  <boxes>
+    <n>16</n>
+    <box_number>Б5</box_number>
+    <box_status>свободен</box_status>
+    <box_current_owner_login />
+  </boxes>
+  <boxes>
+    <n>17</n>
+    <box_number>Б6</box_number>
+    <box_status>свободен</box_status>
+    <box_current_owner_login />
+  </boxes>
+  <boxes>
+    <n>18</n>
+    <box_number>Б7</box_number>
+    <box_status>свободен</box_status>
+    <box_current_owner_login />
+  </boxes>
+  <boxes>
+    <n>19</n>
+    <box_number>Б8</box_number>
+    <box_status>свободен</box_status>
+    <box_current_owner_login />
+  </boxes>
+  <boxes>
+    <n>20</n>
+    <box_number>Б9</box_number>
+    <box_status>свободен</box_status>
+    <box_current_owner_login />
+  </boxes>
+  <boxes>
+    <n>21</n>
+    <box_number>Б10</box_number>
+    <box_status>свободен</box_status>
+    <box_current_owner_login />
+  </boxes>
+  <boxes>
+    <n>22</n>
+    <box_number>Б11</box_number>
+    <box_status>свободен</box_status>
+    <box_current_owner_login />
+  </boxes>
+  <boxes>
+    <n>23</n>
+    <box_number>Б12</box_number>
+    <box_status>свободен</box_status>
+    <box_current_owner_login />
+  </boxes>
+  <boxes>
+    <n>24</n>
+    <box_number>В1</box_number>
+    <box_status>свободен</box_status>
+    <box_current_owner_login />
+  </boxes>
+  <boxes>
+    <n>25</n>
+    <box_number>В2</box_number>
+    <box_status>свободен</box_status>
+    <box_current_owner_login />
+  </boxes>
+  <boxes>
+    <n>26</n>
+    <box_number>В3</box_number>
+    <box_status>свободен</box_status>
+    <box_current_owner_login />
+  </boxes>
+  <boxes>
+    <n>27</n>
+    <box_number>В4</box_number>
+    <box_status>свободен</box_status>
+    <box_current_owner_login />
+  </boxes>
+  <boxes>
+    <n>28</n>
+    <box_number>В5</box_number>
+    <box_status>свободен</box_status>
+    <box_current_owner_login />
+  </boxes>
+  <boxes>
+    <n>29</n>
+    <box_number>В6</box_number>
+    <box_status>свободен</box_status>
+    <box_current_owner_login />
+  </boxes>
+  <boxes>
+    <n>30</n>
+    <box_number>В7</box_number>
+    <box_status>свободен</box_status>
+    <box_current_owner_login />
+  </boxes>
+  <boxes>
+    <n>31</n>
+    <box_number>В8</box_number>
+    <box_status>свободен</box_status>
+    <box_current_owner_login />
+  </boxes>
+  <boxes>
+    <n>32</n>
+    <box_number>В9</box_number>
+    <box_status>свободен</box_status>
+    <box_current_owner_login />
+  </boxes>
+  <boxes>
+    <n>33</n>
+    <box_number>В10</box_number>
+    <box_status>свободен</box_status>
+    <box_current_owner_login />
+  </boxes>
+  <boxes>
+    <n>34</n>
+    <box_number>В11</box_number>
+    <box_status>свободен</box_status>
+    <box_current_owner_login />
+  </boxes>
+  <boxes>
+    <n>35</n>
+    <box_number>В12</box_number>
+    <box_status>свободен</box_status>
+    <box_current_owner_login />
+  </boxes>
+</ArrayOfBoxes>

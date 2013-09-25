@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<ArrayOfClient xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <client>
+    <category>Клиенты</category>
+    <C_lastname>Пупкин</C_lastname>
+    <C_name>Вася</C_name>
+    <C_name_2>-</C_name_2>
+    <kontakt>тел 89012341234</kontakt>
+    <auto_model>ауди тт</auto_model>
+    <auto_number>т999тт</auto_number>
+    <login>vasya</login>
+    <pass>vasya</pass>
+  </client>
+  <client>
+    <category>Клиенты</category>
+    <C_lastname>Путин</C_lastname>
+    <C_name>Володя</C_name>
+    <C_name_2>-</C_name_2>
+    <kontakt>кремль 79000000001</kontakt>
+    <auto_model>ракета</auto_model>
+    <auto_number>л999ох</auto_number>
+    <login>user</login>
+    <pass>user</pass>
+  </client>
+  <client>
+    <category>Клиенты</category>
+    <C_lastname>Суханов</C_lastname>
+    <C_name>Максим</C_name>
+    <C_name_2>Викторович</C_name_2>
+    <kontakt>тел 9120349120</kontakt>
+    <auto_model>Toyota Platz</auto_model>
+    <auto_number>х999хх</auto_number>
+    <login>symax</login>
+    <pass>symax</pass>
+  </client>
+  <client>
+    <category>Клиенты</category>
+    <C_lastname>Клиновенко</C_lastname>
+    <C_name>Инна</C_name>
+    <C_name_2>Владимировна</C_name_2>
+    <kontakt>тел 8234812384</kontakt>
+    <auto_model>BMW x6</auto_model>
+    <auto_number>о042оо</auto_number>
+    <login>inna</login>
+    <pass>inna</pass>
+  </client>
+</ArrayOfClient>
