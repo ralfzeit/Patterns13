@@ -23,3 +23,15 @@ C:\Users\Антон\Desktop\kursovik\kursovik\obj\x86\Debug\kursovik.calculate.r
 C:\Users\Антон\Desktop\kursovik\kursovik\obj\x86\Debug\kursovik.Form4.resources
 C:\repo\Patterns13\BakanovNozhkinSukhanov\kursovik\kursovik\obj\x86\Debug\kursovik.exe
 C:\repo\Patterns13\BakanovNozhkinSukhanov\kursovik\kursovik\obj\x86\Debug\kursovik.pdb
+E:\Repository\Patterns13\BakanovNozhkinSukhanov\kursovik\kursovik\obj\x86\Debug\kursovik.exe
+E:\Repository\Patterns13\BakanovNozhkinSukhanov\kursovik\kursovik\obj\x86\Debug\kursovik.pdb
+E:\Repository\Patterns13\BakanovNozhkinSukhanov\kursovik\kursovik\bin\Debug\kursovik.exe
+E:\Repository\Patterns13\BakanovNozhkinSukhanov\kursovik\kursovik\bin\Debug\kursovik.pdb
+E:\Repository\Patterns13\BakanovNozhkinSukhanov\kursovik\kursovik\obj\x86\Debug\kursovik.csprojResolveAssemblyReference.cache
+E:\Repository\Patterns13\BakanovNozhkinSukhanov\kursovik\kursovik\obj\x86\Debug\kursovik.calculate.resources
+E:\Repository\Patterns13\BakanovNozhkinSukhanov\kursovik\kursovik\obj\x86\Debug\kursovik.Form1.resources
+E:\Repository\Patterns13\BakanovNozhkinSukhanov\kursovik\kursovik\obj\x86\Debug\kursovik.Form2.resources
+E:\Repository\Patterns13\BakanovNozhkinSukhanov\kursovik\kursovik\obj\x86\Debug\kursovik.Form3.resources
+E:\Repository\Patterns13\BakanovNozhkinSukhanov\kursovik\kursovik\obj\x86\Debug\kursovik.Form4.resources
+E:\Repository\Patterns13\BakanovNozhkinSukhanov\kursovik\kursovik\obj\x86\Debug\kursovik.Properties.Resources.resources
+E:\Repository\Patterns13\BakanovNozhkinSukhanov\kursovik\kursovik\obj\x86\Debug\kursovik.csproj.GenerateResource.Cache
